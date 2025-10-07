@@ -1,6 +1,7 @@
 .header__title {
     font-size: 25px;
     color: green;
+    margin-left: 10px;
 }
 
 .header {

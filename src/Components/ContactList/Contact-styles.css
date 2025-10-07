@@ -33,3 +33,9 @@
     margin-left: 25px;
     border: none;
 }
+
+@media screen and (max-width:575px) {
+    .contact-item {
+        width: 100%;
+    }
+}

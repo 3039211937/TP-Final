@@ -19,7 +19,7 @@ const MessageHeader = ({ author, avatar }) => {
           src={avatar} 
           alt={author} 
         />
-        <h2>{author || 'Sin autor'}</h2>
+        <h2 className='message-header-container__contact_name'>{author || 'Sin autor'}</h2>
       </div>
       <div className='message-header-container__right'>
         <button className='message-header-container__icon'><BsCameraVideo /></button>
