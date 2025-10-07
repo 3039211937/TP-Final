@@ -19,7 +19,7 @@ const NewMessageForm = (props) => {
     return (
         <form onSubmit={handleSubmit} className='message-form'>
             <textarea id='mensaje' name='mensaje' placeholder='Escribe tu mensaje aquí' className='message-form-text-input'  />
-            <button><img src="https://us.123rf.com/450wm/makc76/makc761610/makc76161000037/65182880-avi%C3%B3n-de-papel-de-origami-sobre-fondo-azul-icono-de-avi%C3%B3n-de-papel.jpg?ver=6" className='message-form__img'></img></button>
+            <button><img src="https://cdn-icons-png.freepik.com/256/10924/10924424.png?semt=ais_white_label" className='message-form__img'></img></button>
         </form>
 
     )
