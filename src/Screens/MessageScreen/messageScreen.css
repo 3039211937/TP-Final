@@ -58,3 +58,9 @@
     width: 285px;
 }
 }
+
+@media screen and (max-width: 320px) {
+    .message-screen__contact-list-container {
+        display: none;
+    }
+}
