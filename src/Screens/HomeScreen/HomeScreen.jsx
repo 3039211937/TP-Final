@@ -17,7 +17,7 @@ const HomeScreen = () => {
             <ContactList/>
         </div>
         <div className='no-messages-container'>
-            <span>Aún no has seleccionado ningun contacto.</span>
+            <h2 className='no-messages-container__title'>Blablapp</h2>
         </div>
     </div>
   )

@@ -17,11 +17,17 @@
 } 
 
 
+.no-messages-container__title {
+    font-size: 100px;
+    color: green;
+}
+
 .no-messages-container {
     background-color: rgb(247,244,242);
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 320px) {
