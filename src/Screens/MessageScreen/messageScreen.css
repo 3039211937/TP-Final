@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.message-screen {
+    display: flex;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.message-screen__contact-list-container {
+    display: flex;
+    width: 404px;
+    height: 100vh;
+    border: 1px solid rgb(222,221,219);
+    flex-direction: column;
+    flex: 1;
+}
+
+.message-screen__messages-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+
+}
+
+.messages-form-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.message-screen__messages-container {
+    background-color: rgb(245, 241, 235);
+}
+
+.message-screen__header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: rgb(254, 254, 255);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+    .message-screen__contact-list-container {
+    width: 365px;
+}
+}
+
+@media screen and (max-width: 765px) {
+    .message-screen__contact-list-container {
+    width: 285px;
+}
+}
