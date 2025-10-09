@@ -24,13 +24,13 @@
 .message-container--right{
     display: flex;
     justify-content: end;
-    margin-right: 65px;
+    margin-right: 45px;
 }
 
 .message-container--left{
     display: flex;
     justify-content: start;
-    margin-left: 65px;
+    margin-left: 45px;
 }
 
 .message-time {
